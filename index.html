@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Collection</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 aling="center"> My favorite Recipes</h1>
+    <hr>
+    <h2>Recipe Menu</h2>
+    <ul>
+        <li><a href="#biryani">Chiken biryani</a></li>
+        <li><a href="#Salad"> Fresh Fruit salad</a></li>
+        <li><a href="#Pasta">white Sauce Pasta</a></li>
+        <li><a href="#Pancake">Pancakes</a></li>
+        <li><a href="#Sandwich">Veg Sandwich</a></li>
+    </ul>
+    <hr>
+    <h2 id="#Biryani">Chicken Biryani</h2>
+    <img src="chicken biryani.jpg" width="400">
+    <h3>ingredients</h3>
+    <ul>
+        <li>2 Cup rice</li>
+        <li>500g Chicken</li>
+        <li>2 Onions</li>
+        <li>Spices</li>
+        <li>Yogurt</li>
+    </ul>
+    <h3>Steps:</h3>
+    <ol>
+        <li>Wash and soak Rice.</li>
+        <li>Coock Chicken With Spices.</li>
+        <li>Layer Rice and Chicken.</li>
+        <li>Coock On Low Flame For 20 Minutes.</li>
+    </ol>
+    <a href="#top">Back to Menu</a>
+    <hr>
+    <h2 id="Pasta">White Sauce Pasta</h2>
+    <img src="White sauce pasta.jpg"width="300">
+    <h3>Ingrediaent</h3>
+    <ul>
+        <li>Pasta</li>
+        <li>milk</li>
+        <li>Butter</li>
+        <li>Flour</li>
+        <li>vegitables</li>
+    </ul>
+    <h3>Steps:</h3>
+    <ol>
+        <li>Boil Pasta.</li>
+        <li>Prepare white souce.</li>
+        <li>Mix Vegitables.</li>
+        <li>Combine all and cock for 5 Minutes</li>
+    </ol>
+    <a href="#top">Back to Menu</a> 
+    <hr>
+    <h2 id="Salad">Fresh Fruit salad</h2>
+    <img src="salad.jpg" width="300">
+    <h3>ingredient</h3>
+    <ul>
+        <li>Mix all ingrideant.</li>
+        <li>Heat a pan.</li>
+        <li>Pour batter and cook both side.</li>
+    </ul>
+    <a href="#top">Back to Menu</a>
+    <hr>
+    <h2 id="Pancake">Pancake</h2>
+    <img src="Pancake.jpg" width="300">
+    <h3>Ingredient</h3>
+    <ul>
+        <li>apple.</li>
+        <li>Banana.</li>
+        <li>Grapes.</li>
+        <li>Honey.</li>
+    </ul>
+    <h3>Step:</h3>
+    <ol>
+        <li>Cut all fruits.</li>
+        <li>Mix in bowls</li>
+        <li>Add Honey Serve Fresh</li>
+    </ol>
+    <a href="#top">Back to Menu</a>
+    <hr>
+     
+    <img src="Vegsandwich.jpg"alt="sndwich" width="300">
+    <h3>ingredieant</h3>
+    <ul>
+        <li>Bread Slices</li>
+        <li>Cucumber</li>
+        <li>Cheese</li>
+        <li>Tomato</li>
+        <li>Butter</li>
+    </ul>
+    <h3>Steps:</h3>
+    <ol>
+        <li>Apply butter on bread.</li>
+        <li>Add vegetables and cheese.</li>
+        <li>Cover with another slice.</li>
+        <li>Cut and serve.</li>
+    </ol>
+    <a href="#top">Back to Menu</a>
+    <hr>
+    <h2 aling=center>Recipe Feedback Form</h2>
+    <form action="#">
+        <!-- Name -->
+        <label for="name">Your Name:</label><br>
+        <input type="text"id="name"name="name"requid><br><br>
+        <!-- Recipe Selection -->
+        <lable for="recipe">which recipe did you try?</lable><br>
+        <select id="recipe"name ="recipe">
+            <option values="Pasta">Pasta</option>
+            <option values="Biryani">Biryani</option>
+            <option values="salad">salad</option>
+            <opttion values="Cake">Cake</opttion>
+            <option values="sandwich">sandwich</option>
+        </select><br><br>
+        <label>Rating:</label><br>
+        <input type="radio" id="rate1" name="rating" value="1">
+        <label for="rate1">1</label>
+
+        <input type="radio" id="rate2" name="rating" value="2">
+        <label for="rate2">2</label>
+
+        <input type="radio" id="rate3" name="rating" value="3">
+        <label for="rate3">3</label>
+
+        <input type="radio" id="rate4" name="rating" value="4">
+        <label for="rate4">4</label>
+
+        <input type="radio" id="rate5" name="rating" value="5">
+        <label for="rate5">5</label>
+        <br><br> 
+
+        <input type="radio" id="yes" name="recommend" value="yes">
+        <lable for="Yes">yes</lable>
+
+        <input type="radio" id="no" name="recommend" value="no">
+        <label for="No">no</label>
+
+        <label for="Comments">Coments:</label>
+        <textarea id="Comments" name="Comments" rows="4" cols="40"></textarea><br><br>
+        <!-- Submit Button -->
+        <input type="submit" value="SubmitFeedback">
+    </form>    
+
+
+
+
+
+</body>
+</html>
